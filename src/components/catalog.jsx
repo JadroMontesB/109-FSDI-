@@ -1,6 +1,7 @@
 import { useEffect, useState} from "react";
 import Product from "./product";
 import DataService from "../service/dataService";
+import Todo from "./todo";
 
 
 const Catalog = () => {
@@ -37,6 +38,8 @@ const Catalog = () => {
             
             ))}
             
+            <Todo></Todo>
+
         </div>
 
     );
